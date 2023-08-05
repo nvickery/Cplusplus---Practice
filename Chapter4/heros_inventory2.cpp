@@ -36,7 +36,7 @@ int main()
     cout << inventory[0].size() << " letters in it's name.\n";
 
     cout << "\nYou lost your jewelry...\n";
-    inventory.pop_back();
+    inventory.pop_back(); //Remove from list
     cout << "\nYour Items include: \n";
     for (int i = 0; i < inventory.size(); i++)
     {
