@@ -58,5 +58,22 @@ int main()
         cout << *iter << endl;
     }
 
+    // Memory Allocation
+    vector<int> testVect(10,0);
+    cout << "Vector size is: " << testVect.size() << endl;
+    cout << "Vector Capacity is: " << testVect.capacity() << endl;
+    testVect.push_back(0); //extending the vector
+    cout << "Vector size is: " << testVect.size() << endl;
+    cout << "Vector Capacity is: " << testVect.capacity() << endl;
+
+    // Controlling vector capacity when reallocating
+    vector<int> testVect2(10,0);
+    cout << "Vector size is: " << testVect2.size() << endl;
+    cout << "Vector Capacity is: " << testVect2.capacity() << endl;
+    testVect2.reserve(20); //extending the vector
+    cout << "Vector size is: " << testVect2.size() << endl;
+    cout << "Vector Capacity is: " << testVect2.capacity() << endl;
+
+
     return 0;
 }
