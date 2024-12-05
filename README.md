@@ -4,3 +4,4 @@ I've inserted my own notes as I went through these coding examples.
 
 Note: The book is well worth it for anyone struggling to learn C++. 
 Dawson breaks things down in an easy way to learn w/out losing the technical details. 
+The book really covers the basics and is a huge help for complete beginners to C++. 
